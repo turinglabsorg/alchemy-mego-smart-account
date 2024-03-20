@@ -21,11 +21,10 @@ yarn
 ```
 yarn get-address --> Get the address of the smart account
 yarn get-address --key SPONSORED_KEY --> Get the address of the sponsored account (or any other key you define)
-yarn send-tx --value 0.0001 --to 0x4009D3B945164cF0c8F66Bd0f800044813422821--> Send ETH from the smart account to the receiver address, specify a different key with --key parameter
+yarn send-tx --value 0.0001 --to 0x4009D3B945164cF0c8F66Bd0f800044813422821 --> Send ETH from the smart account to the receiver address, specify a different key with --key parameter
 yarn sponsor-tx --to 0x4009D3B945164cF0c8F66Bd0f800044813422821 --calldata 0x --> Sponsor a transaction from the smart account to the receiver address, pass calldata to the transaction with --calldata parameter
 ```
 
 ## Conclusion
 
 This boilerplate is a good starting point to create your own smart account logic using Alchemy's Account Kit. It includes a few scripts to help you interact with your smart account and sponsored account. Feel free to modify it to fit your needs.
-```
