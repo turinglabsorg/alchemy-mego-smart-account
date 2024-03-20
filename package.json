@@ -1,0 +1,25 @@
+{
+  "name": "alchemy-smart-account-boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/turinglabsorg/alchemy-smart-account-boilerplate",
+  "author": "turinglabs <seb@turinglabs.org>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "get-address": "npx tsx get-address.ts",
+    "send-tx": "npx tsx send-tx.ts",
+    "sponsor-tx": "npx tsx sponsor-tx.ts"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "@alchemy/aa-accounts": "^3.6.1",
+    "@alchemy/aa-alchemy": "^3.6.1",
+    "@alchemy/aa-core": "^3.6.1",
+    "@alchemy/aa-signers": "^3.6.1",
+    "dotenv": "^16.4.5",
+    "viem": "^2.8.15"
+  }
+}
