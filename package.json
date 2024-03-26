@@ -7,9 +7,12 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "get-address": "npx tsx get-address.ts",
-    "send-tx": "npx tsx send-tx.ts",
-    "sponsor-tx": "npx tsx sponsor-tx.ts"
+    "local:get-address": "npx tsx local/get-address.ts",
+    "local:send-tx": "npx tsx local/send-tx.ts",
+    "local:sponsor-tx": "npx tsx local/sponsor-tx.ts",
+    "mego:get-address": "npx tsx mego/get-address.ts",
+    "mego:send-tx": "npx tsx mego/send-tx.ts",
+    "mego:interact-tx": "npx tsx mego/interact-tx.ts"
   },
   "devDependencies": {
     "typescript": "^5.4.3"
@@ -19,6 +22,7 @@
     "@alchemy/aa-alchemy": "^3.6.1",
     "@alchemy/aa-core": "^3.6.1",
     "@alchemy/aa-signers": "^3.6.1",
+    "axios": "^1.6.8",
     "dotenv": "^16.4.5",
     "viem": "^2.8.15"
   }
