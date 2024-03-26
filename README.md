@@ -7,6 +7,7 @@ This is a boilerplate for creating a smart account using Alchemy's smart contrac
 - Create an account on [Alchemy](https://www.alchemy.com/) and get your API key.
 - Create a Policy on Sepolia Optimism and get the policy id.
 - Create two different EOA private keys.
+- (Optional) Create an account on [MEGO](https://mego.tickets) and get your email and password.
 
 Save everything in a `.env` file in the root of the project, following the `.env.example` file.
 
