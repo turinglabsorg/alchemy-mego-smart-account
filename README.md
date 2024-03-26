@@ -38,3 +38,5 @@ ENJOY!
 ## Conclusion
 
 This boilerplate is a good starting point to create your own smart account logic using Alchemy's Account Kit or use MEGO. It includes a few scripts to help you interact with your smart account and sponsored account. Feel free to modify it to fit your needs.
+
+You can see the results of a successful interaction here: https://optimism-sepolia.blockscout.com/address/0x4E3556E7EE54e37E2B392Ce823BEfB13dEeA079e?tab=user_ops
